@@ -1,0 +1,38 @@
+nav  {
+    width: 1260px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    margin: 60px auto;
+    
+}
+.nav-titel{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 30px;
+font-weight: 800;
+line-height: 33px;
+letter-spacing: 0%;
+text-align: left;
+}
+.btn{
+    /* Frame 2 */
+
+width: 228px;
+height: 58px;
+left: 1046px;
+top: 38px;
+/* Auto layout */
+font-size: 20px;
+color: black;
+font-weight: 500;
+padding: 17px 24px 17px 24px;
+box-sizing: border-box;
+border: 1px solid rgb(13, 19, 33);
+border-radius: 8px;
+
+opacity: 0.8;
+
+
+}
