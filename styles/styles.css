@@ -255,3 +255,55 @@ line-height: 26px;
 margin-bottom: 30px;
 
 } 
+.banner-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/assets/handshake.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1180px;
+    height: 320px;
+    color: white;
+    border-radius: 12px;
+    margin: 50px auto;
+}
+.banner-2 > h1{
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 36px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: center;
+}
+.banner-2 > p{
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 18px;
+font-weight: 400;
+width: 660px;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.banner-2 > div > input{
+    width: 400px;
+    height: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    font-size: medium;
+}
+.banner-2 > div > button{
+    width: 120px;
+    height: 52px;
+    padding: 4px;
+    border-radius: 10px;
+    border: none;
+    font-size: medium;
+    margin-left: 12px;
+}
